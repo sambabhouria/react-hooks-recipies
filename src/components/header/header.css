@@ -9,7 +9,14 @@
 
   /* Cosmetics */
   background-color: #4267b2;
+  border-bottom: 1px solid #29487d;
+  color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.fa-home {
+  color: #fff;
+  font-size: 0.9em;
+  background-color: red;
 }
 
 .Logo {

@@ -1,5 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./assets/fontawesome/css/all.min.css";
+import "./assets/fontawesome/css/tachyons.min.css";
+import "./assets/fontawesome/css/selected.css";
 import "./styles.css";
 import Header from "./components/header/header";
 

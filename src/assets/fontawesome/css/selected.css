@@ -1,0 +1,306 @@
+.SpCjf {
+    height: 100%;
+    width: 35px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    border-bottom: 0;
+    border-radius: 4px 4px 0 0;
+    background: #f9f9f9;
+    display: inline-block;
+    -webkit-filter: none;
+    filter: none;
+    position: absolute;
+    left: 37px;
+}
+
+.SpCjf>svg {
+    padding-top: 11px;
+}
+
+.SpCjf:hover {
+    cursor: pointer;
+}
+
+.fQsBcw {
+    height: 100%;
+    width: 35px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    border-bottom: 0;
+    border-radius: 4px 4px 0 0;
+    background: #f9f9f9;
+    display: inline-block;
+    -webkit-filter: none;
+    filter: none;
+    position: absolute;
+    right: 0;
+}
+
+.fQsBcw>svg {
+    padding-top: 11px;
+}
+
+.fQsBcw:hover {
+    cursor: pointer;
+}
+
+/* sc-component-id: sc-Rmtcm */
+
+.dSRXvD {
+    height: 100%;
+    width: 35px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    border-bottom: 0;
+    border-radius: 4px 4px 0 0;
+    background: #f9f9f9;
+    display: inline-block;
+    -webkit-filter: none;
+    filter: none;
+    position: absolute;
+    left: 0;
+}
+
+.dSRXvD>svg {
+    padding-top: 11px;
+}
+
+
+/* @ added by samba   trois barre*/
+
+
+
+.cszVDW {
+    display: inline-block;
+    padding: 10px 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    -webkit-transition: color .3s cubic-bezier(.645, .045, .355, 1);
+    transition: color .3s cubic-bezier(.645, .045, .355, 1);
+    -webkit-transition: background-color .3s cubic-bezier(.645, .045, .355, 1);
+    transition: background-color .3s cubic-bezier(.645, .045, .355, 1);
+    color: black;
+    border: 1px solid transparent;
+}
+
+/* .cszVDW:hover {
+    cursor: pointer;
+    color: #007bff;
+    border-color: #ddd #ddd #fff;
+https://stackoverflow.com/questions/39926555/i-want-to-use-aria-expanded-true-to-change-a-css-property/39927006
+            a[aria-expanded="true"]{
+            background-color: #42DCA3;
+            }
+            <li class="active">
+            <a href="#3a" class="btn btn-default btn-lg" data-toggle="tab" aria-expanded="true">
+                <span class="network-name">Google+</span>
+            </a>
+            </li>
+            <li class="active">
+            <a href="#3a" class="btn btn-default btn-lg" data-toggle="tab" aria-expanded="false">
+                <span class="network-name">Google+</span>
+            </a>
+            </li>
+} */
+
+li[aria-selected="true"] {
+    color: #007bff;
+    background: #f9dcdd;
+}
+
+
+
+
+/* @ added by samba  fleche gauche */
+
+
+.jnZyxb {
+    background-color: white;
+    text-align: left;
+    padding: 20px 15px;
+}
+
+
+.sc-gzVnrw {
+    background-color: white;
+    text-align: left;
+    padding: 20px 15px;
+}
+
+
+.sc-bwzfXH {
+    background-color: #F5F5F5;
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    width: auto;
+    padding: 0 0px 0 0px;
+    /* width: 50%; */
+    /* border-bottom: 1px solid #eee; */
+    /* border-bottom: 1px solid #007bff; */
+    border: 2px solid #ffe6e6;
+    border-radius: 30px;
+}
+
+
+
+
+
+/* @ added by samba  fleche droite */
+
+
+
+.dSRXvD:hover {
+    cursor: pointer;
+}
+
+/* sc-component-id: sc-bRBYWo */
+
+.hVBnxQ {
+    height: 100%;
+    width: 35px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    border-bottom: 0;
+    border-radius: 4px 4px 0 0;
+    background: #f9f9f9;
+    display: inline-block;
+    -webkit-filter: none;
+    filter: none;
+    position: absolute;
+    left: 37px;
+}
+
+.hVBnxQ>svg {
+    padding-top: 11px;
+}
+
+.hVBnxQ:hover {
+    cursor: pointer;
+}
+
+.ksVZed {
+    height: 100%;
+    width: 35px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    border-bottom: 0;
+    border-radius: 4px 4px 0 0;
+    background: #f9f9f9;
+    display: inline-block;
+    -webkit-filter: none;
+    filter: none;
+    position: absolute;
+    right: 0;
+}
+
+.ksVZed>svg {
+    padding-top: 11px;
+}
+
+.ksVZed:hover {
+    cursor: pointer;
+}
+
+/* sc-component-id: sc-hzDkRC */
+
+.iRfJyd {
+    height: 100%;
+    width: 35px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    border-bottom: 0;
+    border-radius: 4px 4px 0 0;
+    background: #f9f9f9;
+    display: inline-block;
+    -webkit-filter: none;
+    filter: none;
+    position: absolute;
+    left: 0;
+}
+
+.iRfJyd>svg {
+    padding-top: 11px;
+}
+
+.iRfJyd:hover {
+    cursor: pointer;
+}
+
+/* sc-component-id: sc-jhAzac */
+
+.zjEfm {
+    height: 100%;
+    width: 35px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    border-bottom: 0;
+    border-radius: 4px 4px 0 0;
+    background: #f9f9f9;
+    display: inline-block;
+    -webkit-filter: none;
+    filter: none;
+    position: absolute;
+    left: 37px;
+}
+
+.zjEfm>svg {
+    padding-top: 11px;
+}
+
+.zjEfm:hover {
+    cursor: pointer;
+}
+
+.bIUenu {
+    height: 100%;
+    width: 35px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    border-bottom: 0;
+    border-radius: 4px 4px 0 0;
+    background: #f9f9f9;
+    display: inline-block;
+    -webkit-filter: none;
+    filter: none;
+    position: absolute;
+    right: 0;
+}
+
+.bIUenu>svg {
+    padding-top: 11px;
+}
+
+.bIUenu:hover {
+    cursor: pointer;
+}
+
+/* sc-component-id: sc-fBuWsC */
+
+.iSRLmA {
+    height: 100%;
+    width: 35px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    border-bottom: 0;
+    border-radius: 4px 4px 0 0;
+    background: #f9f9f9;
+    display: inline-block;
+    -webkit-filter: none;
+    filter: none;
+    position: absolute;
+    left: 0;
+}
+
+.iSRLmA>svg {
+    padding-top: 11px;
+}
+
+.iSRLmA:hover {
+    cursor: pointer;
+}
