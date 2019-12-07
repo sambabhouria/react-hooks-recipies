@@ -1,0 +1,112 @@
+.add-user-form {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}
+
+.add-user-form .inner-wrap {
+  padding: 30px;
+  background: #f8f8f8;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+.add-user-form h1 {
+  background-color: #4267b2;
+  border-radius: 10px 10px 0 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  border: none;
+  text-shadow: 1px 1px 1px #ccc;
+  opacity: 0.9;
+  color: #fff;
+  font: normal 14px "Bitter", sans-serif;
+  font-weight: 200;
+  -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+  -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+  box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+  background-color: #4267b2;
+}
+.add-user-form h1 > span {
+  display: block; /* permet de faire un display block haut et bas */
+  /* margin-top: 2px; */
+}
+.add-user-form label {
+  display: block;
+  font: 13px Arial, Helvetica, sans-serif;
+  color: #888;
+  margin-bottom: 15px;
+}
+.add-user-form input[type="text"],
+.add-user-form input[type="date"],
+.add-user-form input[type="datetime"],
+.add-user-form input[type="email"],
+.add-user-form input[type="number"],
+.add-user-form input[type="search"],
+.add-user-form input[type="time"],
+.fadd-user-form input[type="url"],
+.fadd-user-form input[type="password"],
+.add-user-form textarea,
+.add-user-form select {
+  display: block;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border: 2px solid #fff;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+  -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+}
+
+.add-user-form .section {
+  font: normal 20px "Bitter", serif;
+  color: #2a88ad;
+  margin-bottom: 5px;
+}
+.add-user-form .section span {
+  background: #2a88ad;
+  padding: 5px 10px 5px 10px;
+  position: absolute;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border: 4px solid #fff;
+  font-size: 14px;
+  margin-left: -45px;
+  color: #fff;
+  margin-top: -3px;
+}
+.add-user-form input[type="button"],
+.add-user-form input[type="submit"] {
+  background: #2a88ad;
+  padding: 8px 20px 8px 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+  font: normal 30px "Bitter", serif;
+  -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+  -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+  box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+  border: 1px solid #257c9e;
+  font-size: 15px;
+}
+.add-user-form input[type="button"]:hover,
+.add-user-form input[type="submit"]:hover {
+  background: #2a6881;
+  -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+  -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+  box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+}
+.add-user-form label {
+  font: normal 20px "Bitter", sans-serif;
+  color: #4d4d4d;
+}

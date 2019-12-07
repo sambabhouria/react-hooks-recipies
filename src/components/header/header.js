@@ -1,8 +1,11 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React, { useState, useEffect } from "react";
-import logo from "../../assets/logo.svg";
+import { Link } from "react-router-dom";
+import UserAcount from "../../assets/img/png/user-account.jfif";
 import "./header.css";
+
 import { CSSTransition } from "react-transition-group";
+import { MenuToggle } from "../menu-toggle";
 
 export default function Header() {
   const [isNavVisible, setNavVisibility] = useState(false);
@@ -32,7 +35,11 @@ export default function Header() {
 
   return (
     <header className="Header">
-      <img src={logo} className="Logo" alt="logo" />
+      <Link to="/crud">
+        {" "}
+        <img src={UserAcount} className="Logo" alt="logo" />
+      </Link>
+
       <CSSTransition
         in={!isSmallScreen || isNavVisible}
         timeout={350}
@@ -40,14 +47,15 @@ export default function Header() {
         unmountOnExit
       >
         <nav className="Nav">
-          <a href="/">Home</a>
-          <a href="/">Articles</a>
-          <a href="/">About</a>
+          <a href="/home">Home</a>
+          <a href="/crud">Hooks</a>
+          <a href="/about">About</a>
+
           <button>Logout</button>
         </nav>
       </CSSTransition>
       <button onClick={toggleNav} className="Burger">
-        🍔
+        <MenuToggle />
       </button>
     </header>
   );
