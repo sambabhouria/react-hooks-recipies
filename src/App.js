@@ -15,7 +15,7 @@ function App() {
         <Header />
         <div className="Content">
           <Switch>
-            <Route exact path="/home">
+            <Route exact path="/todolist">
               <Home />
             </Route>
             <Route path="/crud">

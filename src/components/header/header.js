@@ -47,8 +47,8 @@ export default function Header() {
         unmountOnExit
       >
         <nav className="Nav">
-          <a href="/home">Home</a>
-          <a href="/crud">Hooks</a>
+          <a href="/todolist">TodoList HOOKS</a>
+          <a href="/crud">Crud HOOKS </a>
           <a href="/about">About</a>
 
           <button>Logout</button>
