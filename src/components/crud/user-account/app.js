@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import UserTable from "../tables/user-table";
 import AddUserForm from "../forms/add-user-form";
 import EditUserForm from "../forms/edit-user-form";
-import "./main.css";
+import "../../main.css";
 const uuidv4 = require("uuid/v4");
 const Crud = () => {
   // Data

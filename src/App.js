@@ -6,8 +6,8 @@ import "./assets/fontawesome/css/selected.css";
 import "./styles.css";
 import Header from "./components/header/header";
 import { Crud } from "./components/crud/user-account";
+import { TodoList } from "./components/todo-list";
 
-const Home = () => <div>samba</div>;
 function App() {
   return (
     <Router>
@@ -16,7 +16,7 @@ function App() {
         <div className="Content">
           <Switch>
             <Route exact path="/todolist">
-              <Home />
+              <TodoList />
             </Route>
             <Route path="/crud">
               <Crud />
