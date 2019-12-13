@@ -3,6 +3,7 @@ import Store from "./context";
 import reducer from "./reducer";
 import { usePersistedContext, usePersistedReducer } from "./usePersist";
 import UserForm from "./forms/user-form";
+import UserList from "./list/user-list";
 
 import "../main.css";
 
@@ -23,10 +24,11 @@ const TodoList = () => {
 
     <Store.Provider value={{ state, dispatch }}>
       <div className="container">
-        <h3> Todo List Hooks</h3>
+        <h3 className="mainH3"> User List Hooks</h3>
         <div className="flex-row">
           <div className="flex-large">
             <UserForm />
+            <UserList />
           </div>
         </div>
       </div>

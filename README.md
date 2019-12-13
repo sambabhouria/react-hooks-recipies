@@ -1,4 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://alligator.io/react/tabs-component/
 
 ## Available Scripts
 

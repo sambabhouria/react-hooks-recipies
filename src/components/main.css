@@ -466,6 +466,13 @@ h5 {
   h2 {
     font-size: 2rem;
   }
+
+  .mainH3 {
+    font-size: 1.75rem;
+    font-family: Baloo;
+    color: #fff;
+  }
+
   h3 {
     font-size: 1.75rem;
     font-family: Baloo;

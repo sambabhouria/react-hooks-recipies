@@ -16,12 +16,13 @@ const uuidv4 = require("uuid/v4");
 
 const Store = React.createContext({
   // Local-Data
+
   usersData: [
     //  Initial Data
-    { id: uuidv4(), name: "DIALLO", username: "Mamadou" },
-    { id: uuidv4(), name: "BARRY", username: "Samba" },
-    { id: uuidv4(), name: "SOW", username: "Moustapha" },
-    { id: uuidv4(), name: "BAH", username: "Mohamed" },
+    { id: uuidv4(), name: "DIALLO" },
+    { id: uuidv4(), name: "BARRY" },
+    { id: uuidv4(), name: "SOW" },
+    { id: uuidv4(), name: "BAH" },
   ],
 });
 
