@@ -7,8 +7,9 @@ export default function reducer(state, action) {
       if (!action.payload) {
         return state;
       }
+      console.warn("state user data", state.usersData);
       // return current state if duplicate
-      if (state.usersData.name.includes(action.payload.name)) {
+      if (state.usersData.includes(action.payload.name)) {
         return state;
       }
 
@@ -23,7 +24,7 @@ export default function reducer(state, action) {
     case "COMPLETE":
       return {
         ...state,
-        usersData: state.usersData.filter(t => t !== action.payload),
+        usersData: state.usersData.filter(user => user !== action.payload),
       };
     default:
       return state;
