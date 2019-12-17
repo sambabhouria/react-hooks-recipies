@@ -1,8 +1,7 @@
 import React, { useContext, useState } from "react";
 import Store from "../context";
-import "../../../assets/bootstrap.min.css";
 const uuidv4 = require("uuid/v4");
-export default function TodoForm() {
+export default function UserForm() {
   const { dispatch } = useContext(Store);
   // Creating a local state to have currently writing
   // todo item that will be sent to the global store.

@@ -4,6 +4,7 @@ import reducer from "./reducer";
 import { usePersistedContext, usePersistedReducer } from "./usePersist";
 import UserForm from "./forms/user-form";
 import UserList from "./list/user-list";
+import "../../assets/bootstrap.min.css";
 
 import "../main.css";
 
