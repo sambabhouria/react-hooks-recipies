@@ -8,6 +8,8 @@ import Header from "./components/header/header";
 import { Crud } from "./components/crud/user-account";
 import { TodoList } from "./components/todo-list";
 
+import HooksStepByStep from "./components/hooks-step-by-step";
+
 function App() {
   return (
     <Router>
@@ -21,8 +23,10 @@ function App() {
             <Route path="/crud">
               <Crud />
             </Route>
-            <Route path="/topics">
-              <div>Bonjour topic</div>
+            <Route path="/hooks-step-by-step">
+              <div>
+                <HooksStepByStep />
+              </div>
             </Route>
           </Switch>
         </div>

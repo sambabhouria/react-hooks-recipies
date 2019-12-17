@@ -49,7 +49,7 @@ export default function Header() {
         <nav className="Nav">
           <a href="/todolist">TodoList HOOKS</a>
           <a href="/crud">Crud HOOKS </a>
-          <a href="/topics">Topics</a>
+          <a href="/hooks-step-by-step">Hooks Step by Step</a>
 
           <button>Logout</button>
         </nav>
