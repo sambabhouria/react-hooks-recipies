@@ -1,5 +1,7 @@
  import React from 'react';
 import { render } from "react-dom";
+import UseEffectApp from './UseEffectApp';
+import DataFetching from './DataFetching';
 
 import Tabs from '../tabs/Tabs';
 import "../tabs/styles.css";
@@ -25,21 +27,23 @@ export default function UseEffectEntryPoint() {
               la portée de la fonction.<br />
                <span style={{color: "red" ,fontWeight: 900}}>  Est-ce que useEffect est appelée après chaque affichage ? </span>
                Oui ! Elle est exécutée par défaut après le premier affichage et après chaque mise à jour
-
-
-
-                 
-             
         </div>
         <div label="Utilisation">
-           Usage go out here
+           <UseEffectApp />
         </div>
         <div label="Advanced">
-          !!!!!!!!!!!!!!
+           <DataFetching />
         </div>
 
          <div label="Summary useEffect">
-          !!!!!!!!!!!!!!
+            1->The Effect Hook lets you perform <span style={{fontWeight:'bold', color:'red'}}>side effects</span> in <span style={{fontWeight:'bold', color:'red'}}>
+             functional components</span><br/>
+            2-> It is a close replacement for<span style={{fontWeight:'bold', color:'red'}}> componentDidMount componentDidUpdate</span>
+            and <span style={{fontWeight:'bold', color:'red'}}> componentWillUnmount</span> <br/>   
+            3-><span style={{fontWeight:'bold', color:'red'}}> useEffect run after evry render</span><br/> 
+            4-><span style={{fontWeight:'bold', color:'red'}}> useEffect is call in the component to acces the props and state
+            whitout writting any other code</span>
+        
         </div>
       </Tabs>
     </div>
