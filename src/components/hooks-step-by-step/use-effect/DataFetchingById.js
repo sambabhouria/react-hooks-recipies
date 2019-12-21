@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-
+import IntervalHookCounter from './IntervalHookCount'
 function DataFetchingById() {
 	const [post, setPost] = useState({})
 	const [id, setId] = useState(1)
@@ -35,6 +35,7 @@ function DataFetchingById() {
 			 <div className="col">
 			  <h2>Result of the request: </h2>
 				<div>{post.title}</div>
+				<IntervalHookCounter />
 			</div>
 		</ >
 	)
