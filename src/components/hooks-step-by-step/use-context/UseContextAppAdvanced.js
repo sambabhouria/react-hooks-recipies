@@ -7,7 +7,7 @@ export const ChannelContext = React.createContext();
 
 function UseContextAppAdvanced() {
   return (
-    <div className="App">
+    <div>
       {/* we neeed to creat the provider */}
       <UserContext.Provider value={"Vishwas"}>
         <ChannelContext.Provider value={"Codevolution"}>

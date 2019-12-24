@@ -4,7 +4,10 @@ import UseContextApp from "./UseContextApp";
 import UseContextAppDisplay from "./UseContextAppDisplay";
 import UseContextThemeApp from "./UseContextThemeApp";
 import UserContextExemple from "./UserContextExemple";
-
+import UseContextAppAdvanced from "./UseContextAppAdvanced";
+ 
+import Context from './components/Context';
+import ContextHook from './components/ContextHook';
 
 import Tabs from "../tabs/Tabs";
 import "../tabs/styles.css";
@@ -60,13 +63,16 @@ export default function UseContext() {
           <ThemeContext.Provider value="green">
             <UseContextApp />
           </ThemeContext.Provider>
-        
+            <Context />
+            <ContextHook />
           
         </div>
         <div label="Advanced">
           <UseContextAppDisplay />
 
           <UseContextThemeApp />
+
+          < UseContextAppAdvanced />
         </div>
         <div label="Summary useContext">
           Context provides a way to pass data through the component tree without

@@ -70,7 +70,6 @@ class UserContextExemple extends React.Component {
 
     return (
       <div className="row">
-       
         <UserContext.Provider value={this.state.user}>
           <Nav />
           <Body />
