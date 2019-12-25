@@ -3,7 +3,7 @@ import React, { useState}  from 'react';
      const  Callback =  () => {
      const [count, setCount] = useState(0)
      const handleClick = () => {
-          window.alert('CLICKED', count);
+          window.alert('CLICKED');
          setCount(count + 1)
           
       }

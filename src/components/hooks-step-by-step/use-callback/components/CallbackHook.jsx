@@ -4,7 +4,8 @@ const CallbackHook = () => {
       const [count, setCount] = useState(0)
       const handleClick = useCallback(() => {
          setCount(count + 1)
-            window.alert('CLICKED IN HOOK CALL BACK' , count);
+            window.alert('CLICKED IN HOOK CALL BACK ');
+            
      }, [ ])
 
   return (
