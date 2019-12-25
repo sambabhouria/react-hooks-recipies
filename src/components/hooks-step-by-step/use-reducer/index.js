@@ -8,10 +8,18 @@ import CounterThree from './components/CounterThree'
 import ComponentA from './components/ComponentA'
 import ComponentB from './components/ComponentB'
 import ComponentC from './components/ComponentC'
+
+// fetching data using axions manage data ussing useSate, useEffect 
+import DataFetchingOne from './DataFetchingOne'
+
 import Tabs from '../tabs/Tabs';
 import "../tabs/styles.css";
 
+// creating oontext 
  export const CountContext = React.createContext()
+
+
+
 
  const initialState = 0
 const reducer = (state, action) => {
@@ -58,11 +66,15 @@ export default function UseReducerApp() {
             <div className="row"> 
                 <ComponentA />
            </div>
-            <div className="row">  
-              < ComponentB />  
-              < ComponentC />           
-           </div>
+              <div className="row">  
+                < ComponentB />  
+                < ComponentC />           
+            </div>
             </CountContext.Provider>
+            <div className="row"> 
+                <DataFetchingOne />
+                 <DataFetchingOne />
+            </div>
         </div>
          <div label="Summary useReducer">
             <span style={{color: "red" ,fontWeight: 900}}> useReducer Summary </span> <br/>
