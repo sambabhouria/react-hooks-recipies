@@ -12,7 +12,7 @@ export default function UseEffectEntryPoint() {
     <div>
       <Tabs>
         <div label="Introduction">
-            <span style={{color: "red" ,fontWeight: 900}}> Utiliser un Hook d’effet </span> <br/>
+            <span style={{color: "red" ,fontWeight: 900}}> Utiliser un Hook d’effet === >useEffect ->side effects </span> <br/>
             Le Hook d’effet permet l’exécution d’effets de bord dans les fonctions composants : <br/>
              Similaire à componentDidMount et componentDidUpdate : <br/>
              Charger des données depuis un serveur distant, s’abonner à quelque chose et modifier manuellement le DOM 

@@ -19,7 +19,7 @@ export default function UseContext() {
         <div label="Introduction">
           <span style={{ color: "red", fontWeight: 900 }}>
             {" "}
-            Utiliser un Hook useContext{" "}
+            Utiliser un Hook useContext === >useContext ->context API{" "} 
           </span>{" "}
           <br />
           React Context is a powerful feature. If your React application grows

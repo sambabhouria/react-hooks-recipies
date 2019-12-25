@@ -12,7 +12,7 @@ export default function UseStateEntryPoint() {
     <div>
       <Tabs>
         <div label="Introduction">
-          <span style={{color: "red" ,fontWeight: 900}}> Appeler useState, qu’est-ce que ça fait ? </span> <br/>
+          <span style={{color: "red" ,fontWeight: 900}}> Appeler useState, qu’est-ce que ça fait ? ====> useState ->state </span> <br/>
           Ça déclare une « variable d’état » . C’est un moyen de « préserver » des valeurs entre différents appels de fonctions.<br/>
           useState est une nouvelle façon d’utiliser exactement les mêmes possibilités qu’offre this.state dans une classe.<br/>
            Normalement, les variables « disparaissent » quand la fonction s’achève mais les variables d’état sont préservées par React.<br/>

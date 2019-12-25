@@ -6,7 +6,7 @@ import UseEffectEntryPoint  from "./use-effect";
 import UseLayoutEffect  from "./use-layout-effect";
 import UseRef  from "./use-ref";
 import UseCallBack  from "./use-callback";
-import UseReducer  from "./use-reducer";
+import UseReducerApp  from "./use-reducer";
 import UseContext  from "./use-context";
 import UseMemo  from "./use-memo";
 
@@ -22,8 +22,8 @@ function HooksEntryPoint() {
                 <button className="w3-bar-item w3-button tablink" onClick={ e =>openLink(e, 'Right')}>useRef</button>
                 <button className="w3-bar-item w3-button tablink" onClick={ e =>openLink(e, 'Top')}>useLayoutEffect</button>
                 <button className="w3-bar-item w3-button tablink"  onClick={e =>openLink(e, 'Bottom')}>useCallback</button>
-                <button className="w3-bar-item w3-button tablink" onClick={ e =>openLink(e, 'Zoom')}>useMomo</button>
-                <button className="w3-bar-item w3-button tablink" onClick={ e =>openLink(e, 'Fading')}>useReducer</button>
+                <button className="w3-bar-item w3-button tablink" onClick={ e =>openLink(e, 'Fading')}>useMomo</button>
+                <button className="w3-bar-item w3-button tablink" onClick={ e =>openLink(e, 'Zoom')}>useReducer</button>
                 <button className="w3-bar-item w3-button tablink" onClick={ e =>openLink(e, 'Opacity')}>useContext</button>
             
         </div>
@@ -62,15 +62,15 @@ function HooksEntryPoint() {
              <  UseCallBack  />
         </div>
 
-        <div id="Zoom" className="w3-container city w3-animate-zoom"  style={{display:'none'}}>
+        <div id="Fading" className="w3-container city w3-animate-fading"  style={{display:'none'}}>
             <h2>use Memo Effect</h2>
             <p>le HOOK useMemo.</p>
             <UseMemo />
         </div>
-          <div id="Fading" className="w3-container city w3-animate-fading"  style={{display:'none'}}>
+          <div id="Zoom" className="w3-container city w3-animate-zoom"  style={{display:'none'}}>
             <h2>use Reducer Effect</h2>
             <p>Le HOOK useReducer.</p>
-            <UseReducer />
+            <UseReducerApp />
             
         </div>
 
