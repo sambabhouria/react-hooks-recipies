@@ -11,6 +11,8 @@ import ComponentC from './components/ComponentC'
 
 // fetching data using axions manage data ussing useSate, useEffect 
 import DataFetchingOne from './DataFetchingOne'
+// fetching data using axions manage data using useReducer, useEffect 
+import DataFetchingTwo from './DataFetchingTwo'
 
 import Tabs from '../tabs/Tabs';
 import "../tabs/styles.css";
@@ -73,7 +75,7 @@ export default function UseReducerApp() {
             </CountContext.Provider>
             <div className="row"> 
                 <DataFetchingOne />
-                 <DataFetchingOne />
+                 <DataFetchingTwo />
             </div>
         </div>
          <div label="Summary useReducer">
@@ -82,6 +84,20 @@ export default function UseReducerApp() {
              useReducer is related to reducer functions<br/>
              userReducer(reducer,initialState)<br/>
              reducer(currentState,action)<br/>
+             <span style={{color: "red" ,fontWeight: 900}}> When should we use useState vs useReducer </span> <br/>
+              1-> useState : when dealing with  Number, String, Boolean <br/>
+              1-> useReducer : when dealing Object or Array <br/>
+
+               2-> useState : when dealing with one or two variable <br/>
+               2-> useReducer : when dealing Too many variable  <br/>
+               3-> useState : when not  dealing with Related state transition <br/>
+               3-> useReducer : when  dealing with Related state transition  <br/>
+               4-> useState : No business logic <br/>
+               4-> useReducer : Complex business logic  <br/>
+               5-> useState : Local  state variable <br/>
+               5-> useReducer : Global state variable  in deep component tree <br/>
+
+
         </div>
       </Tabs>
     </div>

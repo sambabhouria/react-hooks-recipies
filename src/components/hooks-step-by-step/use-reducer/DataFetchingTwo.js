@@ -40,7 +40,8 @@ function DataFetchingTwo() {
 			})
 	}, [])
 	return (
-		<div>
+		    <div className="col">
+           <h2>Fetching data using  useReducer</h2>
 			{state.loading ? 'Loading' : state.post.title}
 			{state.error ? state.error : null}
 		</div>
