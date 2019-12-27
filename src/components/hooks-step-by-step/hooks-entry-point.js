@@ -19,12 +19,12 @@ function HooksEntryPoint() {
       <div className="w3-sidebar w3-bar-block w3-black w3-card" style={{width:'145px'}}>
                 <button className="w3-bar-item w3-button tablink" onClick={e => openLink(e, 'Fade')} >useState</button>
                 <button className="w3-bar-item w3-button tablink" onClick={ e => openLink(e, 'Left')}>useEffect</button>
-                <button className="w3-bar-item w3-button tablink" onClick={ e =>openLink(e, 'Right')}>useRef</button>
-                <button className="w3-bar-item w3-button tablink" onClick={ e =>openLink(e, 'Top')}>useLayoutEffect</button>
-                <button className="w3-bar-item w3-button tablink"  onClick={e =>openLink(e, 'Bottom')}>useCallback</button>
-                <button className="w3-bar-item w3-button tablink" onClick={ e =>openLink(e, 'Fading')}>useMomo</button>
                 <button className="w3-bar-item w3-button tablink" onClick={ e =>openLink(e, 'Zoom')}>useReducer</button>
                 <button className="w3-bar-item w3-button tablink" onClick={ e =>openLink(e, 'Opacity')}>useContext</button>
+                <button className="w3-bar-item w3-button tablink" onClick={ e =>openLink(e, 'Right')}>useRef</button>
+                <button className="w3-bar-item w3-button tablink"  onClick={e =>openLink(e, 'Bottom')}>useCallback</button>
+                <button className="w3-bar-item w3-button tablink" onClick={ e =>openLink(e, 'Fading')}>useMomo</button>
+                <button className="w3-bar-item w3-button tablink" onClick={ e =>openLink(e, 'Top')}>useLayoutEffect</button>
             
         </div>
 
