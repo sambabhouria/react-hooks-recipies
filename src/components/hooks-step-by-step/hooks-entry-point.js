@@ -62,7 +62,7 @@ function HooksEntryPoint() {
              <  UseCallBack  />
         </div>
 
-        <div id="Fading" className="w3-container city w3-animate-fading"  style={{display:'none'}}>
+        <div id="Fading" className="w3-container city w3-animate-zoom"  style={{display:'none'}}>
             <h2>use Memo Effect</h2>
             <p>le HOOK useMemo.</p>
             <UseMemo />
